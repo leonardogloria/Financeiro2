@@ -2,7 +2,7 @@ package financeiro
 
 class Role {
     String name
-    String desc
+    String descricao
 
     static constraints = {
     }

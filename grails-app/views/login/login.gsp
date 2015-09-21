@@ -27,9 +27,11 @@
         <div class="col-md-offset-5 col-md-3">
             <div class="form-login">
                 <h4>Bem vindo ao sistema Financeiro Credilink</h4>
-                <input required type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
+                <g:textField name="email" class="form-control input-sm chat-input"  placeholder="username"></g:textField>
+
             </br>
-                <input required type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
+                <g:passwordField name="senha"  id="userPassword" class="form-control input-sm chat-input" placeholder="password"></g:passwordField>
+
             </br>
                 <div class="wrapper">
                     <span class="group-btn">
