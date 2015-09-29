@@ -91,7 +91,7 @@
 
 												</li>
 												<li>
-													<g:link action="listarConsumidoresNaoConfirmados" controller="usuario" >Contas Bancárias  </g:link>
+													<g:link action="index" controller="contaBancaria" >Contas Bancárias  </g:link>
 												</li>
 											</ul>
 										</li>

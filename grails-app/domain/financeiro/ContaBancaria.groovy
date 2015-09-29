@@ -5,6 +5,8 @@ class ContaBancaria {
     String conta
     String titular
     Banco banco
+    TipoPessoa tipoPessoa
+    String cpfCnjp
 
     static constraints = {
     }
