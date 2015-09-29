@@ -30,7 +30,7 @@ class BancoController {
         }
         bancoInstance.id = 5
         bancoInstance.removido  = '0'
-        bancoInstance.dataCarga = new Date()
+
 
         if (bancoInstance.hasErrors()) {
             respond bancoInstance.errors, view: 'create'

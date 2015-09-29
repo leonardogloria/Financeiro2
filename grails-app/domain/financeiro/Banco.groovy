@@ -6,7 +6,7 @@ class Banco {
     Character removido = '0'
     String codigo
     String enderecoEletronico
-    Date dataCarga
+    Date dataCarga = new Date()
 
 
     static mapping = {

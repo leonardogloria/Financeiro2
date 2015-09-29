@@ -19,8 +19,6 @@ class ContaBancariaController {
     }
 
     def create() {
-        println Banco.count()
-
         respond new ContaBancaria(params)
     }
 

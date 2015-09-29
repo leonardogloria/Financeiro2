@@ -47,7 +47,7 @@
 	<aside id="aside" class="app-aside modal fade " role="menu">
 		<div class="left">
 			<div class="box bg-white">
-				<div class="navbar md-whiteframe-z1 no-radius amber-400">
+				<div class="navbar md-whiteframe-z1 no-radius red-	300">
 					<!-- brand -->
 					<a class="navbar-brand">
 						<img src="${application.contextPath}/resources/images/consumidor-seguro-logo.png" alt="." style="max-height: 65px;">
@@ -82,7 +82,28 @@
 													<i class="fa fa-caret-down"></i>
 												</span>
 												<i class="pull-right up"><b class="badge no-bg"></b></i>
-												<i class="icon mdi-social-people i-20"></i>
+												<i class="icon mdi-action-home i-20"></i>
+												<span class="font-normal">Credilink</span>
+											</a>
+											<ul class="nav nav-sub">
+												<li>
+													<g:link action="index" controller="banco" >Equipes <span class="badge badge-black"></g:link>
+
+												</li>
+												<li>
+													<g:link action="index" controller="banco" >Colaboradores <span class="badge badge-black"></g:link>
+
+												</li>
+
+											</ul>
+										</li>
+										<li>
+											<a md-ink-ripple>
+												<span class="pull-right text-muted">
+													<i class="fa fa-caret-down"></i>
+												</span>
+												<i class="pull-right up"><b class="badge no-bg"></b></i>
+												<i class="icon mdi-editor-attach-money i-20"></i>
 												<span class="font-normal">Info bancárias</span>
 											</a>
 											<ul class="nav nav-sub">
@@ -93,6 +114,23 @@
 												<li>
 													<g:link action="index" controller="contaBancaria" >Contas Bancárias  </g:link>
 												</li>
+											</ul>
+										</li>
+										<li>
+											<a md-ink-ripple>
+												<span class="pull-right text-muted">
+													<i class="fa fa-caret-down"></i>
+												</span>
+												<i class="pull-right up"><b class="badge no-bg"></b></i>
+												<i class="icon mdi-social-domain i-20"></i>
+												<span class="font-normal">Empresas</span>
+											</a>
+											<ul class="nav nav-sub">
+												<li>
+													<g:link action="index" controller="banco" >Fornecedores <span class="badge badge-black"></g:link>
+
+												</li>
+
 											</ul>
 										</li>
 
@@ -150,7 +188,7 @@
 	<div id="content" class="app-content" role="main">
 		<div class="box">
 			<!-- Content Navbar -->
-			<div class="navbar md-whiteframe-z1 no-radius amber-400">
+			<div class="navbar md-whiteframe-z1 no-radius red-300">
 				<!-- Open side - Naviation on mobile -->
 				<a md-ink-ripple  data-toggle="modal" data-target="#aside" class="navbar-item pull-left visible-xs visible-sm"><i class="mdi-navigation-menu i-24"></i></a>
 				<!-- / -->
