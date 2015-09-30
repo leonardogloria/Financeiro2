@@ -58,9 +58,7 @@
 				</g:each>
 				</tbody>
 			</table>
-			<div class="pagination">
-				<g:paginate total="${contaBancariaInstanceCount ?: 0}" />
-			</div>
+
 		</div>
 	</body>
 </html>
